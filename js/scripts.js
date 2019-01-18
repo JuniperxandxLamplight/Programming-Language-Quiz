@@ -40,11 +40,6 @@ $(function(){
       $("#question2").hide();
       $("#question3").show();
     } else if (jobSite === "company"){
-      cSharp += 1;
-      java += 1;
-      php += 1;
-      ruby += 1;
-
       $("#question2").hide();
       $("#question3").show();
     } else {
@@ -110,16 +105,28 @@ $(function(){
     if (html >= 2){
       $("#question5").hide();
       $("#htmlResult").show();
-    } if (java >= 3){
+    } else if (java >= 4){
       $("#question5").hide();
       $("#javaResult").show();
-    } if (php >= 3){
+    } else if (php >= 4){
       $("#question5").hide();
       $("#phpResult").show();
-    } if (cSharp >= 3){
+    }  else if (cSharp >= 4){
       $("#question5").hide();
       $("#cSharpResult").show();
-    } if (ruby >= 3){
+    } else if (ruby >= 4){
+      $("#question5").hide();
+      $("#rubyResult").show();
+    } else if (java >= 3){
+      $("#question5").hide();
+      $("#javaResult").show();
+    } else if (php >= 3){
+      $("#question5").hide();
+      $("#phpResult").show();
+    }  else if (cSharp >= 3){
+      $("#question5").hide();
+      $("#cSharpResult").show();
+    } else if (ruby >= 3){
       $("#question5").hide();
       $("#rubyResult").show();
     }
