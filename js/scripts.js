@@ -51,4 +51,64 @@ $(function(){
       $("#q2Error").text("Please select an answer.");
     }
   });
+
+  $("#q3Button").click(function(){
+    var companySize = $("input:radio[name=companySize]:checked").val();
+
+    if (companySize === "big"){
+      cSharp += 1;
+      java += 1;
+
+      $("#question3").hide();
+      $("#question4").show();
+    } else if (companySize === "small"){
+      php += 1;
+      ruby += 1;
+
+      $("#question3").hide();
+      $("#question4").show();
+    } else {
+      $("#q3Error").text("Please select an answer.");
+    }
+  });
+
+  $("#q4Button").click(function(){
+    var webApp = $("input:radio[name=webApp]:checked").val();
+
+    if (webApp === "webpages"){
+      cSharp += 1;
+      php += 1;
+
+      $("#question4").hide();
+      $("#question5").show();
+    } else if (webApp === "apps"){
+      java += 1;
+      ruby += 1;
+
+      $("#question4").hide();
+      $("#question5").show();
+    } else {
+      $("#q4Error").text("Please select an answer.");
+    }
+  });
+
+  $("#q5Button").click(function(){
+    var companySites = $("input:radio[name=companySites]:checked").val();
+
+    if (companySites === "webpages"){
+      cSharp += 1;
+      php += 1;
+
+      $("#question4").hide();
+      $("#question5").show();
+    } else if (companySites === "apps"){
+      java += 1;
+      ruby += 1;
+
+      $("#question4").hide();
+      $("#question5").show();
+    } else {
+      $("#q4Error").text("Please select an answer.");
+    }
+  });
 });
