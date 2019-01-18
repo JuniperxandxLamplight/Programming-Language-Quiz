@@ -5,15 +5,30 @@ body{
 #question1{
   display: none;
 }
+#q1Error{
+  color: red;
+}
 #question2{
   display: none;
+}
+#q2Error{
+  color: red;
 }
 #question3{
   display: none;
 }
+#q3Error{
+  color: red;
+}
 #question4{
   display: none;
 }
+#q4Error{
+  color: red;
+}
 #question5{
   display: none;
+}
+#q5Error{
+  color: red;
 }
