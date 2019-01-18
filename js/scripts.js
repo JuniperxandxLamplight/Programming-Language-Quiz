@@ -14,7 +14,7 @@ $(function(){
     var whichEnd = $("input:radio[name=whichEnd]:checked").val();
 
     if (whichEnd === "visual"){
-      html += 1;
+      html += 2;
 
       $("#question1").hide();
       $("#question2").show();
@@ -95,20 +95,33 @@ $(function(){
   $("#q5Button").click(function(){
     var companySites = $("input:radio[name=companySites]:checked").val();
 
-    if (companySites === "webpages"){
-      cSharp += 1;
+    if (companySites === "wiki"){
       php += 1;
-
-      $("#question4").hide();
-      $("#question5").show();
-    } else if (companySites === "apps"){
-      java += 1;
+    } else if (companySites === "bing"){
+      cSharp += 1;
+    } else if (companySites === "twitter"){
       ruby += 1;
-
-      $("#question4").hide();
-      $("#question5").show();
+    } else if (companySites === "youtube"){
+      java += 1;
     } else {
       $("#q4Error").text("Please select an answer.");
+    }
+
+    if (html >= 2){
+      $("#question5").hide();
+      $("#htmlResult").show();
+    } if (java >= 3){
+      $("#question5").hide();
+      $("#javaResult").show();
+    } if (php >= 3){
+      $("#question5").hide();
+      $("#phpResult").show();
+    } if (cSharp >= 3){
+      $("#question5").hide();
+      $("#cSharpResult").show();
+    } if (ruby >= 3){
+      $("#question5").hide();
+      $("#rubyResult").show();
     }
   });
 });

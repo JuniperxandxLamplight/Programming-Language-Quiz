@@ -32,3 +32,18 @@ body{
 #q5Error{
   color: red;
 }
+#htmlResult{
+  display: none;
+}
+#javaResult{
+  display: none;
+}
+#phpResult{
+  display: none;
+}
+#cSharpResult{
+  display: none;
+}
+#rubyResult{
+  display: none;
+}
