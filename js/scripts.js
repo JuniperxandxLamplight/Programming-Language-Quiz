@@ -146,5 +146,54 @@ $(function(){
       $("#question5").hide();
       $("#rubyResult").fadeIn();
     }
+
+    $("#resultsHeader").fadeIn();
+    $("#resultsButtons").fadeIn();
+  });
+
+  $("#htmlButton").click(function(){
+    $("#htmlInfo").hide();
+    $("#javaInfo").hide();
+    $("#cSharpInfo").hide();
+    $("#phpInfo").hide();
+    $("#rubyInfo").hide();
+
+    $("#htmlInfo").slideDown();
+  });
+  $("#javaButton").click(function(){
+    $("#htmlInfo").hide();
+    $("#javaInfo").hide();
+    $("#cSharpInfo").hide();
+    $("#phpInfo").hide();
+    $("#rubyInfo").hide();
+
+    $("#javaInfo").slideDown();
+  });
+  $("#cSharpButton").click(function(){
+    $("#htmlInfo").hide();
+    $("#javaInfo").hide();
+    $("#cSharpInfo").hide();
+    $("#phpInfo").hide();
+    $("#rubyInfo").hide();
+
+    $("#cSharpInfo").slideDown();
+  });
+  $("#phpButton").click(function(){
+    $("#htmlInfo").hide();
+    $("#javaInfo").hide();
+    $("#cSharpInfo").hide();
+    $("#phpInfo").hide();
+    $("#rubyInfo").hide();
+
+    $("#phpInfo").slideDown();
+  });
+  $("#rubyButton").click(function(){
+    $("#htmlInfo").hide();
+    $("#javaInfo").hide();
+    $("#cSharpInfo").hide();
+    $("#phpInfo").hide();
+    $("#rubyInfo").hide();
+
+    $("#rubyInfo").slideDown();
   });
 });

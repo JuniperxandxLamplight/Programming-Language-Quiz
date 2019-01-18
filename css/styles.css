@@ -6,7 +6,32 @@ li{
   list-style-type: none;
   padding: none;
 }
+h1{
+  border: 1px solid #8f9193;
+}
 
+/* Individual elements hidden for js to show at correct intervals. */
+#resultsHeader{
+  display: none;
+}
+#resultsButtons{
+  display: none;
+}
+#phpInfo{
+  display: none;
+}
+#htmlInfo{
+  display: none;
+}
+#javaInfo{
+  display: none;
+}
+#rubyInfo{
+  display: none;
+}
+#cSharpInfo{
+  display: none;
+}
 #nameError{
   color: red;
 }
