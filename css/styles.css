@@ -16,6 +16,81 @@ h1{
   box-shadow: 0px 3px  5px #5e5e5e;
   margin-bottom: 10px;
 }
+.btn{
+  box-shadow: 0px 3px 5px #5e5e5e;
+  margin-bottom: 10px;
+}
+.name{
+  margin-left: 37%;
+  width: 25%;
+  box-shadow: 0px 1px 3px #5e5e5e;
+}
+#htmlResult{
+  border: 1px solid #95f4ab;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px #5e5e5e;
+  margin-bottom: 10px;
+}
+#phpResult{
+  border: 1px solid #95f4ab;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px #5e5e5e;
+  margin-bottom: 10px;
+}
+#javaResult{
+  border: 1px solid #95f4ab;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px #5e5e5e;
+  margin-bottom: 10px;
+}
+#rubyResult{
+  border: 1px solid #95f4ab;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px #5e5e5e;
+  margin-bottom: 10px;
+}
+#cSharpResult{
+  border: 1px solid #95f4ab;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px #5e5e5e;
+  margin-bottom: 10px;
+}
+#resultsHeader{
+  border: 1px solid #d99ef7;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px #5e5e5e;
+  margin-bottom: 10px;
+}
+#phpInfo{
+  border: 1px solid #5bc0de;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px #5e5e5e;
+  margin-bottom: 10px;
+}
+#htmlInfo{
+  border: 1px solid #5bc0de;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px #5e5e5e;
+  margin-bottom: 10px;
+}
+#javaInfo{
+  border: 1px solid #5bc0de;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px #5e5e5e;
+  margin-bottom: 10px;
+}
+#rubyInfo{
+  border: 1px solid #5bc0de;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px #5e5e5e;
+  margin-bottom: 10px;
+}
+#cSharpInfo{
+  border: 1px solid #5bc0de;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px #5e5e5e;
+  margin-bottom: 10px;
+}
 
 /* Individual elements hidden for js to show at correct intervals. */
 #resultsHeader{
