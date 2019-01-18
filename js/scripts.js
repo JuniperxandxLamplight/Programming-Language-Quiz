@@ -4,10 +4,17 @@ $(function(){
   var java = 0;
   var php = 0;
   var ruby = 0;
+  var nameInput;
 
   $("#startButton").click(function(){
-    $("#question1").show();
-    $("#startButton").hide();
+    nameInput = $("#userName").val();
+
+    if (nameInput === ""){
+      $("#nameError").text("Please enter your name.");
+    } else{
+      $("#question1").fadeIn();
+      $(".firstPage").hide();
+    }
   });
 
   $("#q1Button").click(function(){
@@ -17,7 +24,7 @@ $(function(){
       html += 2;
 
       $("#question1").hide();
-      $("#question2").show();
+      $("#question2").fadeIn();
     } else if (whichEnd === "functionality"){
       cSharp += 1;
       java += 1;
@@ -25,7 +32,7 @@ $(function(){
       ruby += 1;
 
       $("#question1").hide();
-      $("#question2").show();
+      $("#question2").fadeIn();
     } else {
       $("#q1Error").text("Please select an answer.");
     }
@@ -38,10 +45,10 @@ $(function(){
       html += 1;
 
       $("#question2").hide();
-      $("#question3").show();
+      $("#question3").fadeIn();
     } else if (jobSite === "company"){
       $("#question2").hide();
-      $("#question3").show();
+      $("#question3").fadeIn();
     } else {
       $("#q2Error").text("Please select an answer.");
     }
@@ -55,13 +62,13 @@ $(function(){
       java += 1;
 
       $("#question3").hide();
-      $("#question4").show();
+      $("#question4").fadeIn();
     } else if (companySize === "small"){
       php += 1;
       ruby += 1;
 
       $("#question3").hide();
-      $("#question4").show();
+      $("#question4").fadeIn();
     } else {
       $("#q3Error").text("Please select an answer.");
     }
@@ -75,13 +82,13 @@ $(function(){
       php += 1;
 
       $("#question4").hide();
-      $("#question5").show();
+      $("#question5").fadeIn();
     } else if (webApp === "apps"){
       java += 1;
       ruby += 1;
 
       $("#question4").hide();
-      $("#question5").show();
+      $("#question5").fadeIn();
     } else {
       $("#q4Error").text("Please select an answer.");
     }
@@ -103,32 +110,41 @@ $(function(){
     }
 
     if (html >= 2){
+      $(".nameInsert").text(nameInput);
       $("#question5").hide();
-      $("#htmlResult").show();
+      $("#htmlResult").fadeIn();
     } else if (java >= 4){
+      $(".nameInsert").text(nameInput);
       $("#question5").hide();
-      $("#javaResult").show();
+      $("#javaResult").fadeIn();
     } else if (php >= 4){
+      $(".nameInsert").text(nameInput);
       $("#question5").hide();
-      $("#phpResult").show();
+      $("#phpResult").fadeIn();
     }  else if (cSharp >= 4){
+      $(".nameInsert").text(nameInput);
       $("#question5").hide();
-      $("#cSharpResult").show();
+      $("#cSharpResult").fadeIn();
     } else if (ruby >= 4){
+      $(".nameInsert").text(nameInput);
       $("#question5").hide();
-      $("#rubyResult").show();
+      $("#rubyResult").fadeIn();
     } else if (java >= 3){
+      $(".nameInsert").text(nameInput);
       $("#question5").hide();
-      $("#javaResult").show();
+      $("#javaResult").fadeIn();
     } else if (php >= 3){
+      $(".nameInsert").text(nameInput);
       $("#question5").hide();
-      $("#phpResult").show();
+      $("#phpResult").fadeIn();
     }  else if (cSharp >= 3){
+      $(".nameInsert").text(nameInput);
       $("#question5").hide();
-      $("#cSharpResult").show();
+      $("#cSharpResult").fadeIn();
     } else if (ruby >= 3){
+      $(".nameInsert").text(nameInput);
       $("#question5").hide();
-      $("#rubyResult").show();
+      $("#rubyResult").fadeIn();
     }
   });
 });
