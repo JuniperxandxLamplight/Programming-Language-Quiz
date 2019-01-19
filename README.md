@@ -10,7 +10,7 @@ _This application is meant to be opened and used to figure out what programming 
 
 ## Setup/Installation Requirements
 
-* _Open [here](https://juniperxandxlamplight.github.io/Programming-Language-Quiz/)_
+* _Open (https://juniperxandxlamplight.github.io/Programming-Language-Quiz/)_
 
 ## Known Bugs
 
