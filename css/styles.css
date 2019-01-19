@@ -1,6 +1,17 @@
+html{
+    background-image: url("../img/code.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
 body{
   text-align: center;
   font-family: "Georgia";
+  background-color: rgba(255, 255, 255, 0.75);
+  margin: 5%;
+  padding: 1%;
+  padding-top: 2%;
+  border-radius: 20px;
 }
 li{
   list-style-type: none;
@@ -10,8 +21,7 @@ h1{
   font-weight: bold;
   color: #474747;
   text-shadow: 0px 1px 0px white, 0px -1px 0px black;
-  background-color: #bfbfbf;
-  border: 1px solid #bfbfbf;
+  background-color: #a0a0a0;
   border-radius: 15px;
   box-shadow: 0px 3px  5px #5e5e5e;
   margin-bottom: 10px;
@@ -26,66 +36,112 @@ h1{
   box-shadow: 0px 1px 3px #5e5e5e;
 }
 #htmlResult{
+  background-color: rgba(237, 237, 237, .75);
   border: 1px solid #95f4ab;
   border-radius: 10px;
   box-shadow: 0px 3px 5px #5e5e5e;
   margin-bottom: 10px;
 }
 #phpResult{
+  background-color: rgba(237, 237, 237, .75);
   border: 1px solid #95f4ab;
   border-radius: 10px;
   box-shadow: 0px 3px 5px #5e5e5e;
   margin-bottom: 10px;
 }
 #javaResult{
+  background-color: rgba(237, 237, 237, .75);
   border: 1px solid #95f4ab;
   border-radius: 10px;
   box-shadow: 0px 3px 5px #5e5e5e;
   margin-bottom: 10px;
 }
 #rubyResult{
+  background-color: rgba(237, 237, 237, .75);
   border: 1px solid #95f4ab;
   border-radius: 10px;
   box-shadow: 0px 3px 5px #5e5e5e;
   margin-bottom: 10px;
 }
 #cSharpResult{
+  background-color: rgba(237, 237, 237, .75);
   border: 1px solid #95f4ab;
   border-radius: 10px;
   box-shadow: 0px 3px 5px #5e5e5e;
   margin-bottom: 10px;
 }
 #resultsHeader{
+  background-color: rgba(237, 237, 237, .75);
   border: 1px solid #d99ef7;
   border-radius: 10px;
   box-shadow: 0px 3px 5px #5e5e5e;
   margin-bottom: 10px;
 }
 #phpInfo{
+  background-color: rgba(237, 237, 237, .75);
   border: 1px solid #5bc0de;
   border-radius: 10px;
   box-shadow: 0px 3px 5px #5e5e5e;
   margin-bottom: 10px;
 }
 #htmlInfo{
+  background-color: rgba(237, 237, 237, .75);
   border: 1px solid #5bc0de;
   border-radius: 10px;
   box-shadow: 0px 3px 5px #5e5e5e;
   margin-bottom: 10px;
 }
 #javaInfo{
+  background-color: rgba(237, 237, 237, .75);
   border: 1px solid #5bc0de;
   border-radius: 10px;
   box-shadow: 0px 3px 5px #5e5e5e;
   margin-bottom: 10px;
 }
 #rubyInfo{
+  background-color: rgba(237, 237, 237, .75);
   border: 1px solid #5bc0de;
   border-radius: 10px;
   box-shadow: 0px 3px 5px #5e5e5e;
   margin-bottom: 10px;
 }
 #cSharpInfo{
+  background-color: rgba(237, 237, 237, .75);
+  border: 1px solid #5bc0de;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px #5e5e5e;
+  margin-bottom: 10px;
+}
+#question1{
+  background-color: rgba(237, 237, 237, .75);
+  border: 1px solid #5bc0de;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px #5e5e5e;
+  margin-bottom: 10px;
+}
+#question2{
+  background-color: rgba(237, 237, 237, .75);
+  border: 1px solid #5bc0de;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px #5e5e5e;
+  margin-bottom: 10px;
+}
+#question3{
+  background-color: rgba(237, 237, 237, .75);
+  border: 1px solid #5bc0de;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px #5e5e5e;
+  margin-bottom: 10px;
+}
+#question4{
+  background-color: rgba(237, 237, 237, .75);
+  border: 1px solid #5bc0de;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px #5e5e5e;
+  margin-bottom: 10px;
+}
+#question5{
+  background-color: rgba(237, 237, 237, .75);
   border: 1px solid #5bc0de;
   border-radius: 10px;
   box-shadow: 0px 3px 5px #5e5e5e;
